@@ -2,6 +2,7 @@
 const express = require ('express')
 
 let app =express()
+
                     /*Greetings
                     =============*/
 //Make a route '/greeting' that sends a generic greeting to the screen like "Hello, stranger".
@@ -21,6 +22,9 @@ app.get('/tip/:total/:tipPercentage',(req,res)=>{
     console.log(totatalTip)
     res.send('From total amount of ' + " " + req.params.total +" bill, " +"your tip is" + " " + totatalTip)
 })
+
+
+
 
 
 app.listen(3000, ()=>{
