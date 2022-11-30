@@ -1,0 +1,24 @@
+{
+  "name": "week-1-day-3--lab-hw-express-hw-2",
+  "version": "1.0.0",
+  "description": "Second Express Homework\r Practice the Basics of Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamirulalan/Week-1-Day-3--Lab-HW-Express-HW-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamirulalan/Week-1-Day-3--Lab-HW-Express-HW-2/issues"
+  },
+  "homepage": "https://github.com/tamirulalan/Week-1-Day-3--Lab-HW-Express-HW-2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
