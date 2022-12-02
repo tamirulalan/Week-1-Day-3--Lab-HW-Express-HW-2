@@ -1,6 +1,6 @@
-
+//require express module
 const express = require ('express')
-
+//create const app
 let app =express()
 
                     /*Greetings
@@ -22,10 +22,7 @@ app.get('/tip/:total/:tipPercentage',(req,res)=>{
     console.log(totatalTip)
     res.send('From total amount of ' + " " + req.params.total +" bill, " +"your tip is" + " " + totatalTip)
 })
-
-
-
-
+//create a port where the server listens to
 
 app.listen(3000, ()=>{
     console.log('start listening to port number 3000 👂') 
